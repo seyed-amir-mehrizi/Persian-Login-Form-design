@@ -1,0 +1,94 @@
+
+@font-face {
+    font-family: 'IranSans'; /*a name to be used later*/
+    src: url('./assets/Font/Iranian\ Sans.ttf'); /*URL to font*/
+}
+html , body{
+    margin: 0;
+    direction: rtl;
+    font-family: 'IranSans';
+
+}
+
+.container{
+background-image: url(./assets/Image/5321.jpg);
+height: 100vh;
+width: 100vw;
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.login-container{
+    background-color: 	rgb(128, 128, 128 , 0.6);
+    padding: 50px 30px;
+    width: 50%;
+    min-width: 400px;
+    max-width: 600px;
+}
+
+.login-title{
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-group label{
+ color: white;
+font-size: 1.5em;
+ font-weight: lighter;
+ margin-bottom: 10px;
+}
+
+.input-group input{
+
+    background-color:rgba(204, 201, 201, 0.6);
+    border:2px solid rgba(171, 158, 226, 0.6);
+    outline: none;
+    font-size: 1.5em;
+    padding: 0.1em 0.25em;
+    border-radius: 5px;
+    color: white;
+    font-weight: lighter;
+
+   }
+
+   .input-group input:focus{
+    border:2px solid rgb(99, 68, 233);
+   }
+
+   .login-button{
+       background-color: rgba(104, 96, 139, 0.8);
+       padding: 10px 30px;
+       width: 100%;
+       border-radius: 5px;
+       border:2px solid rgb(99, 68, 233);
+       outline: none;
+       font-size: 1.5em;
+       color: white;
+       font-weight: lighter;
+       margin-top: 20px;
+       cursor: pointer;
+    font-family: 'IranSans';
+
+   }
+
+   .login-button:hover{
+        background-color: rgba(91, 60, 228, 0.8);
+    }
+
+    .login-button:focus{
+        background-color: rgba(91, 60, 228,1);
+    }
